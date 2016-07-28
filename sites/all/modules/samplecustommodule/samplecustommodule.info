@@ -1,0 +1,6 @@
+name = Sample Custom Module
+description = test custom module
+package = custom-modules
+version = VERSION
+core = 7.x
+files[] = samplecustommodule.module

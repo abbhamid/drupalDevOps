@@ -1,0 +1,23 @@
+<?php
+
+function samplecustommodule_menu() {
+    $items = array();
+
+    $items['samplecustommodule/welcome'] = array(
+        'title' => 'Welcome to Drupal DevOps',
+        'page callback' => 'say_welcome',
+        'access arguments' => array('access content'),
+        'type' => MENU_CALLBACK,
+     );
+
+    return $items;
+}
+
+function say_welcome() {
+    $vars = array();
+    $vars['type']="ul";
+    $vars['title'] = "";
+    $vars['attributes']=array("");
+    $vars['items'][0]="This is a simple custom module";
+    return theme_item_list($vars);
+}
