@@ -1,5 +1,5 @@
 name = Sample Custom Module
-description = test custom module
+description = Test Custom Module
 package = custom-modules
 version = VERSION
 core = 7.x
