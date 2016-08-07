@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="default">
+  <testsuite name="Contact form" tests="1" skipped="0" failures="1" errors="0">
+    <testcase name="Successfully submit feedback when required fields are filled out" status="failed">
+      <failure message="When I follow &quot;Contact us&quot;: Link with id|title|alt|text &quot;Contact us&quot; not found. (Behat\Mink\Exception\ElementNotFoundException)"></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
