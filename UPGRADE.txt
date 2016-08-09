@@ -1,6 +1,6 @@
 INTRODUCTION
 ------------
- This document describes how to:
+This document describes how to: - TEST
 
   * Update your Drupal site from one minor 7.x version to another minor 7.x
     version; for example, from 7.8 to 7.9, or from 7.6 to 7.10.
