@@ -15,6 +15,7 @@
  * Root directory of Drupal installation.
  */
 /** comment in release branch for testing merge */
+/** New test comment for git merge test **/
 define('DRUPAL_ROOT', getcwd());
 require_once 'vendor/autoload.php';
 
