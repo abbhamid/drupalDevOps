@@ -1,3 +1,4 @@
+Testing git merge. Change done in release branch
 
 CONTENTS OF THIS FILE
 ---------------------

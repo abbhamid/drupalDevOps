@@ -14,6 +14,7 @@
 /**
  * Root directory of Drupal installation.
  */
+/** comment in release branch for testing merge */
 define('DRUPAL_ROOT', getcwd());
 require_once 'vendor/autoload.php';
 
