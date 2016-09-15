@@ -8,7 +8,7 @@ ini_set('display_startup_errors', TRUE);
  */
 
 /**
- * Defines the root directory of the Drupal installation.
+ *  Defines the root directory of the Drupal installation.
  */
 define('DRUPAL_ROOT', getcwd());
 
